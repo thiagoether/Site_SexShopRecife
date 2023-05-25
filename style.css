@@ -1,0 +1,112 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  position: fixed;  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ 
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.logo img {
+  max-width: 800px;
+}
+
+.insta {
+  justify-content: center;
+  background-color: black;
+  padding: 5px;  
+ 
+}
+
+.insta img {
+  max-width: 40px;
+}
